@@ -1,0 +1,18 @@
+{
+  "name": "finApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@cubos/eslint-config": "^1.0.536820",
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
